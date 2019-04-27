@@ -135,10 +135,10 @@ class LinkedList
     end
 end
 
-list = LinkedList.new()
-puts list.empty()
-puts list.push_at(0,12)
-puts list.empty()
+# list = LinkedList.new()
+# puts list.empty()
+# puts list.push_at(0,12)
+# puts list.empty()
 # puts list.push_end(11)
 # puts list.push_end(22)
 # puts list.push_end(33)
