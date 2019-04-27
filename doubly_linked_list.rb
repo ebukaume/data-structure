@@ -103,6 +103,19 @@ class LinkedList
         if @head.nil?
             return "List is empty"
         end
+        if index < 0
+            position = 1
+            current_node = @tail
+            begin
+                until position + index == 0
+                    current_node = current_node.previous_node
+                    position += 1
+                end
+                return current_node.value
+            rescue
+                return "Index Out of Range!"
+            end
+        end
         current_node = @head
         begin
             index.times do
