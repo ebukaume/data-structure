@@ -134,22 +134,3 @@ class LinkedList
         return false
     end
 end
-
-# list = LinkedList.new()
-# puts list.empty()
-# puts list.push_at(0,12)
-# puts list.empty()
-# puts list.push_end(11)
-# puts list.push_end(22)
-# puts list.push_end(33)
-# puts list.push_at(1,120)
-# puts list.push_at(2,1200)
-# puts list.push_at(3,12000)
-
-# # 0 120 1200 10 
-
-# puts list.read_all()
-# # puts list.read_at(0)
-# puts "************"
-# puts list.read_at(2)
-# puts list.read_all()
