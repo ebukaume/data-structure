@@ -147,3 +147,6 @@ class LinkedList
         return false
     end
 end
+
+arr = [1, 2]
+puts arr.compact
