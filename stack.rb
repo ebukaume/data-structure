@@ -21,8 +21,8 @@ class Stack
         return "Stack is Empty!" if @tail == nil
         to_pop = @tail
         @tail = @tail.previous_node
-        if @tail.nil?
-            @tail = nil
+        if !@tail.nil?
+            @tail.next_node = nil
         end
         return to_pop.value
     end
