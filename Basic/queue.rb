@@ -28,6 +28,7 @@ class Queue
         to_pop = @head
         if @head.next_node.nil?
             @head = nil
+            @tail = nil
         else
             @head = @head.next_node
         end
